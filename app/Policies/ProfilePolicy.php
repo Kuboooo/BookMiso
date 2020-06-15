@@ -94,6 +94,6 @@ class ProfilePolicy
 
     public function adminUser(User $user, Profile $profile)
     {
-        return $user->id == 1;
+        return $user->id == 21;
     }
 }
