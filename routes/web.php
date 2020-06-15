@@ -19,9 +19,9 @@ Route::get('/', function () {
 
 Auth::routes();
 
-Route::get('/email', function () {
-    return new \App\Mail\NewUserWelcomeMail();
-});
+//Route::get('/email', function () {
+//    return new \App\Mail\NewUserWelcomeMail();
+//});
 
 Route::get('/library', 'BookController@create');
 
